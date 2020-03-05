@@ -1,0 +1,18 @@
+// Mozilla CSS Reset.
+@import '~cssremedy/css/remedy.css';
+// Methods to use.
+@import 'helpers';
+// Global variables.
+@import 'vars2';
+// Global reset.
+@import 'global/reset';
+// Global utilities.
+@import 'global/utility';
+// Global typography.
+@import 'global/typography';
+// Preset animations.
+@import 'modules/animations';
+// Preset whitespace.
+@import 'modules/container';
+// Carousel style overwrites
+@import 'modules/swiper';

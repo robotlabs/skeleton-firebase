@@ -1,0 +1,68 @@
+@import '../helpers';
+
+body {
+  font-family: var(--t-stack-regular);
+  color: var(--c-typography);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  font-family: var(--t-stack-headings);
+  font-weight: var(--t-weight-regular);
+  letter-spacing: 0.3px;
+  margin: 0;
+}
+
+/*********************
+ * TYPOGRAPHY PRESETS
+ *********************/
+
+// Heading one
+h1, .t-h1 {
+  font-size: var(--t-heading-one--size);
+  line-height: var(--t-heading-one--leading);
+}
+
+// Heading two
+h2, .t-h2 {
+  font-size: var(--t-heading-two--size);
+  line-height: var(--t-heading-two--leading);
+}
+
+// Body 1 (default)
+body, .t-body-1 {
+  font-weight: var(--t-weight-light);
+  letter-spacing: 0.3px;
+  font-size: var(--t-body-1--size);
+  line-height: var(--t-body-1--leading);
+}
+
+// Body 2 {
+small, .t-body-2 {
+  font-weight: var(--t-weight-light);
+  letter-spacing: 0.3px;
+  font-size: var(--t-body-2--size);
+  line-height: var(--t-body-2--leading);
+}
+
+button, .button {
+  font-weight: var(--t-weight-regular);
+  letter-spacing: 0.3px;
+}
+
+a {
+  --color: var(--c-typography);
+  --color-visited: var(--c-gray-51);
+  --color-hover: var(--c-gray-77);
+  color: var(--color);
+  text-decoration: none;
+
+  &:visited {
+    color: var(--color-visited);
+  }
+
+  &:hover {
+    color: var(--color-hover);
+  }
+}

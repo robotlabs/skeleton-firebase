@@ -1,0 +1,63 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes fadeInDelay {
+  0%   {
+    opacity: 0;
+    visibility: hidden;
+  }
+  35%  {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes topOut {
+  from {
+    top: 60%;
+  }
+
+  to {
+    top: 100%;
+  }
+}
+
+
+.fade-in-on-mount {
+  animation: fadeIn calc(var(--animation-speed-slow) * 1.5) forwards;
+}
+.fade-in-on-mount-with-delay {
+  animation: fadeInDelay calc(var(--animation-speed-slow) * 3) forwards;
+}
+.fade-out {
+  animation: fadeOut calc(var(--animation-speed-slow) * 1.2) forwards;
+}
+.top-out {
+  animation: topOut 0.95s forwards;
+}
+

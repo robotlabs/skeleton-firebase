@@ -1,0 +1,93 @@
+{
+    "1": {
+        "id": 1,
+        "question": "What is the average size of your heart?",
+        "answers": [
+            {
+                "question": "The size of a watermelon",
+                "correct": false
+            },
+            {
+                "question": "The size of a clenched fist",
+                "correct": true
+            },
+            {
+                "question": "The size of a football",
+                "correct": false
+            }
+        ],
+        "explanation": "<b>Usually, a person's heart is the size of their clenched fist.</b> <br /><br /> If a person has heart trouble, their heart may be bigger than usual."
+    },
+    "2": {
+        "id": 2,
+        "question": "What is the average resting heart rate of a professional athlete?",
+        "answers": [
+            {
+                "question": "40 BPM",
+                "correct": true
+            },
+            {
+                "question": "60 BPM",
+                "correct": false
+            },
+            {
+                "question": "80 BPM",
+                "correct": false
+            }
+        ],
+        "explanation": "<b>Amazingly, it’s 40 BPM!</b> <br /><br />In fact, some professional cyclists are known to have a heart rate as low as 28bpm. <br /><br />That's likely because exercise strengthens the heart muscle, allowing it to pump a greater amount of blood with each heartbeat. <br /><br />However, an average healthy resting heart rate should be 60 - 90 BPM"
+    },
+    "3": {
+        "id": 3,
+        "question": "Whose heart beats faster?",
+        "answers": [
+            {
+                "question": "Women",
+                "correct": true
+            },
+            {
+                "question": "Men",
+                "correct": false
+            }
+        ],
+        "explanation": "<b>Women's hearts beat faster than Men’s.</b> <br /><br />An average female’s heart rate is in between 78 – 82bpm and the average male’s heart rate is in between 70-72 bpm. <br /><br />The difference in this frequency is due to the size of the heart (Female hearts typically have a smaller size than males). "
+    },
+    "4": {
+        "id": 4,
+        "question": "How many beats will your heart do today?",
+        "answers": [
+            {
+                "question": "1,150",
+                "correct": false
+            },
+            {
+                "question": "11,500",
+                "correct": false
+            },
+            {
+                "question": "115,000",
+                "correct": true
+            }
+        ],
+        "explanation": "<b>Your heart beats on average 115 000 times per day!</b><br /><br /> Over the course of a year, it would beat about 42 million times!! <br /><br />And in a lifetime about 3 Billion!!!"
+    },
+    "5": {
+        "id": 5,
+        "question": "How many gallons do your heart pump each day?",
+        "answers": [
+            {
+                "question": "1500",
+                "correct": false
+            },
+            {
+                "question": "2000",
+                "correct": true
+            },
+            {
+                "question": "2500",
+                "correct": false
+            }
+        ],
+        "explanation": "<b>It pumps 2000 gallons per day!</b> <br /><br />In total, that blood travels about 12,000 miles through your body each day which is four times across the U.S. from coast to coast. During your lifetime, you pump about 1 Million barrels of blood."
+    }
+}

@@ -1,0 +1,5 @@
+@import '../helpers';
+
+.a11y-visually-hidden {
+  @include a11y-visually-hidden;
+}

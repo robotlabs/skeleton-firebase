@@ -1,0 +1,44 @@
+{
+  "name": "robot-skeleton-firebase-init",
+  "version": "0.1.0",
+  "homepage": ".",
+  "private": true,
+  "dependencies": {
+    "cssremedy": "0.1.0-beta.2",
+    "mini-signals": "^1.2.0",
+    "firebase": "^7.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2"
+  },
+  "scripts": {
+    "start": "HTTPS=true react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gsap": "^3.2.4",
+    "node-sass": "^4.13.0",
+    "react-html-parser": "^2.0.2",
+    "react-scripts": "3.4.0",
+    "standard": "^14.3.1"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}

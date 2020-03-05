@@ -1,0 +1,13 @@
+@import '../helpers';
+
+.bi-container {
+  padding-left: var(--page-padding-horizontal);
+  padding-right: var(--page-padding-horizontal);
+}
+
+.bi-page {
+  position: relative;
+  padding-top: var(--page-padding-vertical);
+  padding-bottom: var(--page-padding-vertical);
+  height: 100%;
+}
